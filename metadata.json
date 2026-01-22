@@ -1,0 +1,8 @@
+{
+  "name": "Dra. Thais Ferreira - Harmonização Facial Premium",
+  "description": "Uma landing page mobile-first de alta conversão, centrada no expert, com quiz interativo e visual sofisticado para agendamento de consultas de harmonização facial.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
