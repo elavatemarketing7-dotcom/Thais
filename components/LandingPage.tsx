@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { EXPERT_NAME, PROFESSION, ADDRESS, IMAGES, WHATSAPP_URL, INSTAGRAM_URL } from '../constants';
+import { EXPERT_NAME, PROFESSION, ADDRESS, IMAGES, WHATSAPP_URL, INSTAGRAM_URL, MAPS_URL } from '../constants';
 import MarqueeNav from './MarqueeNav';
 import Gallery from './Gallery';
 
@@ -247,7 +247,15 @@ const LandingPage: React.FC<LandingPageProps> = ({ onContactClick }) => {
         <div className="max-w-5xl mx-auto">
           <div className="mb-12 text-center">
             <h2 className="text-3xl font-serif font-bold text-black mb-4">Onde Nos Encontrar</h2>
-            <p className="text-zinc-600 font-medium">{ADDRESS}</p>
+            <a 
+              href={MAPS_URL} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-zinc-600 font-medium hover:text-[#4a3728] transition-colors group inline-flex items-center gap-2"
+            >
+              {ADDRESS}
+              <span className="text-xs opacity-0 group-hover:opacity-100 transition-opacity">(Ver no Mapa)</span>
+            </a>
           </div>
           <div className="w-full h-96 bg-zinc-300 rounded-[3rem] overflow-hidden shadow-lg border-8 border-white">
             <iframe 

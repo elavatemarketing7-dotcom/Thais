@@ -2,6 +2,7 @@
 export const EXPERT_NAME = "Thais Ferreira G. Pedrosa";
 export const PROFESSION = "Harmonização Facial";
 export const ADDRESS = "Lagoa da Prata - MG📍";
+export const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=Dra.+Thais+Ferreira+G.+Pedrosa+Lagoa+da+Prata+MG";
 export const WHATSAPP_URL = "https://api.whatsapp.com/message/5SUDJP2JMNREJ1?autoload=1&app_absent=0&utm_source=ig";
 export const INSTAGRAM_URL = "https://www.instagram.com/dra.thaisferreirapedrosa/reels/";
 
